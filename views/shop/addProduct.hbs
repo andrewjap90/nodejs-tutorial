@@ -1,0 +1,28 @@
+    <div>
+      <h1>Create New Product</h1>
+      <form action="/addNewProduct" enctype="multipart/form-data" method="post">
+        <table>
+          <tbody>
+            <tr>
+              <td>Product Name</td>
+              <td><input type="text" name="title" /></td>
+            </tr>
+            <tr>
+              <td>Description</td>
+              <td><textarea name="description"></textarea></td>
+            </tr>
+            <tr>
+              <td>ImagePath</td>
+              <td><input type="file" name="imagePath" /></td>
+            </tr>
+            <tr>
+              <td>Price</td>
+              <td><input type="number" name="price" /></td>
+            </tr>
+            <tr>
+              <td colspan="2"><input type="submit" value="Save" /></td>
+            </tr>
+          </tbody>
+        </table>
+      </form>
+    </div>
